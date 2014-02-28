@@ -3,7 +3,7 @@ function initEnvironment(){
 }
 
 $('head').append('<link rel="stylesheet" type="text/css" media="screen" href="converse.min.css">');
-$('head').append('<script src="https://conversejs.org/builds/converse.min.js"></script>')
+$('head').append('<script src="https://conversejs.org/builds/converse.min.js"></script>');
 $('body').append("
 <script>
     require(['converse'], function (converse) {
