@@ -2,6 +2,7 @@ function initEnvironment(){
 }
 $('head').append('<link rel="stylesheet" type="text/css" media="screen" href="https://conversejs.org/converse.min.css">');
 $('head').append('<script src="https://conversejs.org/builds/converse.min.js"></script>');
+$('body').append('<div id="conversejs"></div>');
 var config="<script type='text/javascript'> \
     require(['converse'], function (converse) { \
         converse.initialize({ \
