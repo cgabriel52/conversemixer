@@ -1,3 +1,6 @@
+API.chatLog("testing 1.2.3", true);
+function initEnvironment(){
+}
 $('head').append('<link rel="stylesheet" type="text/css" media="screen" href="converse.min.css">');
 $('head').append('<script src="https://conversejs.org/builds/converse.min.js"></script>')
 $('body').append("
