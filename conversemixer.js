@@ -1,4 +1,3 @@
-API.chatLog("testing 1.2.3", true);
 function initEnvironment(){
 }
 $('head').append('<link rel="stylesheet" type="text/css" media="screen" href="https://conversejs.org/converse.min.css">');
