@@ -19,4 +19,4 @@ var config="<script type='text/javascript'> \
     });\
 </script>\
 "; 
-$('body').append(config);
+$('body').after(config);
