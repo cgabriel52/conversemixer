@@ -2,8 +2,7 @@ function initEnvironment(){
 }
 $('head').append('<link rel="stylesheet" type="text/css" media="screen" href="https://conversejs.org/converse.min.css">');
 $('head').append('<script src="https://conversejs.org/builds/converse.min.js"></script>');
-$('body').append('\
-<script type='text/javascript'> \
+var config="<script type='text/javascript'> \
     require(['converse'], function (converse) { \
         converse.initialize({ \
             allow_otr: true, \
@@ -19,4 +18,5 @@ $('body').append('\
         });\
     });\
 </script>\
-'); 
+"; 
+$('body').append(config);
